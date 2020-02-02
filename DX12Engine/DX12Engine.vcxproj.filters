@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Chepter1">
+      <UniqueIdentifier>{b12e8d25-a374-46e3-9851-13ef2ad34948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chepter2">
+      <UniqueIdentifier>{df874ac2-47e1-484d-ba8a-cb95b751da57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chepter3">
+      <UniqueIdentifier>{998bf7de-4332-4a82-ba7c-fb30ff553526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chepter3\Header Files">
+      <UniqueIdentifier>{5b57cb0a-cb32-4dd9-9d48-4d5d0ae5a61d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chepter3\Source Files">
+      <UniqueIdentifier>{fe959eec-6d66-44a8-8d75-970a528bbdd7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="XMATRIX.h">
+      <Filter>소스 파일\Chepter2</Filter>
+    </ClInclude>
+    <ClInclude Include="XMVectorExample.h">
+      <Filter>소스 파일\Chepter1</Filter>
+    </ClInclude>
+    <ClInclude Include="XMVectorFunc.h">
+      <Filter>소스 파일\Chepter1</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dapp.h">
+      <Filter>소스 파일\Chepter3\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dUtil.h">
+      <Filter>소스 파일\Chepter3\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>소스 파일\Chepter3\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="XMVectorExample.cpp">
+      <Filter>소스 파일\Chepter1</Filter>
+    </ClCompile>
+    <ClCompile Include="XMVectorFunc.cpp">
+      <Filter>소스 파일\Chepter1</Filter>
+    </ClCompile>
+    <ClCompile Include="XMATRIX.cpp">
+      <Filter>소스 파일\Chepter2</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dapp.cpp">
+      <Filter>소스 파일\Chepter3\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dUtil.cpp">
+      <Filter>소스 파일\Chepter3\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>소스 파일\Chepter3\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InitDirect3DApp.cpp">
+      <Filter>소스 파일\Chepter3\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
